@@ -1,0 +1,24 @@
+# Apple Global CDN
+#
+# iOS App Store
+DOMAIN,iosapps.itunes.apple.com,{{ cdn_rule }}
+# Mac App Store
+DOMAIN,osxapps.itunes.apple.com,{{ cdn_rule }}
+# Update
+DOMAIN,supportdownload.apple.com,{{ cdn_rule }}
+# Update
+DOMAIN,appldnld.apple.com,{{ cdn_rule }}
+# Update
+DOMAIN,swcdn.apple.com,{{ cdn_rule }}
+DOMAIN,apptrailers.itunes.apple.com,{{ cdn_rule }}
+DOMAIN,updates-http.cdn-apple.com,{{ cdn_rule }}
+# App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com,{{ cdn_rule }}
+# Mac App Store
+PROCESS-NAME,storedownloadd,{{ cdn_rule }}
+# iOS App Store
+USER-AGENT,com.apple.appstored*,{{ cdn_rule }}
+# Apple Music Streaming
+DOMAIN,streamingaudio.itunes.apple.com,DIRECT
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com,DIRECT
