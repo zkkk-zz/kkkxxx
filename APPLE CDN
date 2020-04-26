@@ -18,3 +18,13 @@ USER-AGENT,com.apple.appstored*,{{ cdn_rule }}
 DOMAIN,streamingaudio.itunes.apple.com,DIRECT
 # Apple Music
 DOMAIN-SUFFIX,music.apple.com,DIRECT
+#
+DOMAIN,api.smoot.apple.com,DIRECT
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,configuration.apple.com,DIRECT
+DOMAIN,guzzoni.apple.com,DIRECT
+
+# Apple 直连
+#
+USER-AGENT,*com.apple.mobileme.fmip1,DIRECT
+USER-AGENT,*WeatherFoundation*,DIRECT
