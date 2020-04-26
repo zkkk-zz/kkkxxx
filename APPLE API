@@ -4,7 +4,6 @@ DOMAIN,apps.apple.com,{{ api_rule }}
 DOMAIN,xp.apple.com,{{ api_rule }}
 DOMAIN,api-edge.apps.apple.com,{{ api_rule }}
 DOMAIN,api.apps.apple.com,{{ api_rule }}
-DOMAIN,play.itunes.apple.com,{{ api_rule }}
 DOMAIN,se.itunes.apple.com,{{ api_rule }}
 DOMAIN,se-edge.itunes.apple.com,{{ api_rule }}
 DOMAIN,su.itunes.apple.com,{{ api_rule }}
