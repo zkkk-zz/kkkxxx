@@ -5,8 +5,6 @@ DOMAIN,iosapps.itunes.apple.com,{{ cdn_rule }}
 # Mac App Store
 DOMAIN,osxapps.itunes.apple.com,{{ cdn_rule }}
 # Update
-DOMAIN,supportdownload.apple.com,{{ cdn_rule }}
-# Update
 DOMAIN,appldnld.apple.com,{{ cdn_rule }}
 # Update
 DOMAIN,swcdn.apple.com,{{ cdn_rule }}
