@@ -41,4 +41,4 @@ DOMAIN-SUFFIX,me.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple.com,{{ api_rule }}
 DOMAIN-SUFFIX,icloud.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple-cloudkit.com,{{ api_rule }}
-{% endmacro %}
+
