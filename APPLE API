@@ -1,0 +1,44 @@
+# 一些 com.apple.appstored* 会连接的 API（优先级高）
+#
+DOMAIN,apps.apple.com,{{ api_rule }}
+DOMAIN,xp.apple.com,{{ api_rule }}
+DOMAIN,bag.itunes.apple.com,{{ api_rule }}
+DOMAIN,api-edge.apps.apple.com,{{ api_rule }}
+DOMAIN,api.apps.apple.com,{{ api_rule }}
+DOMAIN,play.itunes.apple.com,{{ api_rule }}
+DOMAIN,se.itunes.apple.com,{{ api_rule }}
+DOMAIN,se-edge.itunes.apple.com,{{ api_rule }}
+DOMAIN,su.itunes.apple.com,{{ api_rule }}
+DOMAIN,upp.itunes.apple.com,{{ api_rule }}
+DOMAIN,beta.music.apple.com,{{ api_rule }}
+DOMAIN-KEYWORD,buy.itunes.apple.com,{{ api_rule }}
+# Apple Non-China CDN
+#
+# Trailer
+DOMAIN-SUFFIX,hls.itunes.apple.com,{{ default_rule }}
+# Movie Stream
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com,{{ default_rule }}
+# iTunes Music Stream
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,{{ default_rule }}
+DOMAIN-SUFFIX,cdn-apple.com,{{ default_rule }}
+DOMAIN,cdn.apple-cloudkit.com,{{ default_rule }}
+# Developer
+DOMAIN,devimages-cdn.apple.com,{{ default_rule }}
+# Developer
+DOMAIN,devstreaming-cdn.apple.com,{{ default_rule }}
+DOMAIN,js-cdn.music.apple.com,{{ default_rule }}
+# Apple News
+#
+USER-AGENT,AppleNews*,{{apple_news_rule}}
+DOMAIN-SUFFIX,apple.news,{{apple_news_rule}}
+DOMAIN,news-events.apple.com,{{apple_news_rule}}
+DOMAIN,news-edge.apple.com,{{apple_news_rule}}
+DOMAIN,apple.comscoreresearch.com,{{apple_news_rule}}
+DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
+# iCloud 上传和下载
+DOMAIN-SUFFIX,icloud-content.com,{{ api_rule }}
+DOMAIN-SUFFIX,me.com,{{ api_rule }}
+DOMAIN-SUFFIX,apple.com,{{ api_rule }}
+DOMAIN-SUFFIX,icloud.com,{{ api_rule }}
+DOMAIN-SUFFIX,apple-cloudkit.com,{{ api_rule }}
+{% endmacro %}
