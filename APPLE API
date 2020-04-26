@@ -2,7 +2,6 @@
 #
 DOMAIN,apps.apple.com,{{ api_rule }}
 DOMAIN,xp.apple.com,{{ api_rule }}
-DOMAIN,bag.itunes.apple.com,{{ api_rule }}
 DOMAIN,api-edge.apps.apple.com,{{ api_rule }}
 DOMAIN,api.apps.apple.com,{{ api_rule }}
 DOMAIN,play.itunes.apple.com,{{ api_rule }}
