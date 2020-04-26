@@ -12,8 +12,6 @@ DOMAIN,apptrailers.itunes.apple.com,{{ cdn_rule }}
 DOMAIN,updates-http.cdn-apple.com,{{ cdn_rule }}
 # App Store & iTunes Images
 DOMAIN-SUFFIX,mzstatic.com,{{ cdn_rule }}
-# Mac App Store
-PROCESS-NAME,storedownloadd,{{ cdn_rule }}
 # iOS App Store
 USER-AGENT,com.apple.appstored*,{{ cdn_rule }}
 # Apple Music Streaming
