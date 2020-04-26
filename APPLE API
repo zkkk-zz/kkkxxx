@@ -10,7 +10,6 @@ DOMAIN,se.itunes.apple.com,{{ api_rule }}
 DOMAIN,se-edge.itunes.apple.com,{{ api_rule }}
 DOMAIN,su.itunes.apple.com,{{ api_rule }}
 DOMAIN,upp.itunes.apple.com,{{ api_rule }}
-DOMAIN,beta.music.apple.com,{{ api_rule }}
 DOMAIN-KEYWORD,buy.itunes.apple.com,{{ api_rule }}
 # Apple Non-China CDN
 #
@@ -41,4 +40,5 @@ DOMAIN-SUFFIX,me.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple.com,{{ api_rule }}
 DOMAIN-SUFFIX,icloud.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple-cloudkit.com,{{ api_rule }}
-
+# Apple Music Streaming
+DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
