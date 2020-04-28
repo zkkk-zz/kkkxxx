@@ -36,3 +36,5 @@ DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
 DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
 # App Store & iTunes Images
 DOMAIN-SUFFIX,mzstatic.com,{{ api_rule }}
+#
+DOMAIN-SUFFIX,apple.com,{{ api_rule }}
