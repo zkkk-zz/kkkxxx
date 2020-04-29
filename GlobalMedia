@@ -177,9 +177,3 @@ host, api.viu.now.com, GlobalMedia
 host, d1k2us671qcoau.cloudfront.net, GlobalMedia
 host, d2anahhhmp1ffz.cloudfront.net, GlobalMedia
 host, dfp6rglgjqszk.cloudfront.net, GlobalMedia
-# > YouTube
-user-agent, com.google.ios.youtube*, GlobalMedia
-user-agent, YouTube*, GlobalMedia
-host-suffix, googlevideo.com, GlobalMedia
-host-suffix, youtube.com, GlobalMedia
-host, youtubei.googleapis.com, GlobalMedia
