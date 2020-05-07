@@ -30,8 +30,7 @@ DOMAIN,guzzoni.apple.com,DIRECT
 USER-AGENT,*com.apple.mobileme.fmip1,DIRECT
 USER-AGENT,*WeatherFoundation*,DIRECT
 
-# GeoServices.framework
-DOMAIN-SUFFIX,ls.apple.com,{{ location_rule }}
+
 # Apple 其他直连
 #
 DOMAIN,api.smoot.apple.com,DIRECT
