@@ -38,3 +38,6 @@ DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
 DOMAIN-SUFFIX,mzstatic.com,{{ api_rule }}
 #
 DOMAIN-SUFFIX,apple.com,{{ api_rule }}
+
+# locationd
+DOMAIN,gs-loc.apple.com,{{ location_rule }}
