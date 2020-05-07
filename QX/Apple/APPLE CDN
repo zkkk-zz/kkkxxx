@@ -29,8 +29,7 @@ DOMAIN,guzzoni.apple.com,DIRECT
 #
 USER-AGENT,*com.apple.mobileme.fmip1,DIRECT
 USER-AGENT,*WeatherFoundation*,DIRECT
-# locationd
-DOMAIN,gs-loc.apple.com,{{ location_rule }}
+
 # GeoServices.framework
 DOMAIN-SUFFIX,ls.apple.com,{{ location_rule }}
 # Apple 其他直连
