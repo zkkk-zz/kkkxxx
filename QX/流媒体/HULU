@@ -3,4 +3,4 @@
 DOMAIN-SUFFIX,hulu.com,Hulu
 DOMAIN-SUFFIX,huluim.com,Hulu
 DOMAIN-SUFFIX,hulustream.com,Hulu
-HOST-SUFFIX,livemanifest-hulustream-com.akamaized.net,Hulu
+DOMAIN-SUFFIX,akamaized.net,Hulu
