@@ -41,3 +41,9 @@ DOMAIN-SUFFIX,apple.com,{{ api_rule }}
 
 # GeoServices.framework
 DOMAIN-SUFFIX,ls.apple.com,{{ location_rule }}
+
+# iCloud 上传和下载
+DOMAIN-SUFFIX,icloud-content.com,{{ api_rule }}
+DOMAIN-SUFFIX,me.com,{{ api_rule }}
+DOMAIN-SUFFIX,icloud.com,{{ api_rule }}
+DOMAIN-SUFFIX,apple-cloudkit.com,{{ api_rule }}
