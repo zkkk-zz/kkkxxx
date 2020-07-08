@@ -1,0 +1,9 @@
+USER-AGENT,com.apple.geod*,Apple 地理限制
+USER-AGENT,com.apple.Maps,Apple 地理限制
+USER-AGENT,geod*,Apple 地理限制
+USER-AGENT,locationd*,Apple 地理限制
+USER-AGENT,Maps*,Apple 地理限制
+DOMAIN,gs-loc.apple.com,Apple 地理限制 // Maps
+DOMAIN-SUFFIX,lcdn-locator.apple.com,Apple 地理限制
+DOMAIN-SUFFIX,lcdn-registration.apple.com,Apple 地理限制
+DOMAIN-SUFFIX,ls.apple.com,Apple 地理限制
