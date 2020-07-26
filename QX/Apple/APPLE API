@@ -48,3 +48,10 @@ DOMAIN-SUFFIX,icloud-content.com,{{ api_rule }}
 DOMAIN-SUFFIX,me.com,{{ api_rule }}
 DOMAIN-SUFFIX,icloud.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple-cloudkit.com,{{ api_rule }}
+
+# Apple 其他自选
+#
+DOMAIN-SUFFIX,aaplimg.com,{{ api_rule }}
+DOMAIN-SUFFIX,apple.co,{{ api_rule }}
+DOMAIN-SUFFIX,itunes.com,{{ api_rule }}
+DOMAIN-SUFFIX,itunes.apple.com,{{ api_rule }}
