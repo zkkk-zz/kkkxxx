@@ -12,13 +12,7 @@ DOMAIN,apptrailers.itunes.apple.com,{{ cdn_rule }}
 DOMAIN,updates-http.cdn-apple.com,{{ cdn_rule }}
 # iOS App Store
 USER-AGENT,com.apple.appstored*,{{ cdn_rule }}
-# Apple Music Streaming
-DOMAIN,aod.itunes.apple.com,DIRECT
-DOMAIN,api.smoot.apple.cn,DIRECT
-# Apple Music Streaming
-DOMAIN,streamingaudio.itunes.apple.com,DIRECT
-# Apple Music
-DOMAIN-SUFFIX,music.apple.com,DIRECT
+
 #
 DOMAIN,api.smoot.apple.com,DIRECT
 DOMAIN,captive.apple.com,DIRECT
