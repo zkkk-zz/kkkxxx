@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,apple.news,US
 DOMAIN,news-events.apple.com,US
 DOMAIN,news-edge.apple.com,US
 DOMAIN,apple.comscoreresearch.com,US
-DOMAIN,play.itunes.apple.com,US
+
 DOMAIN,play-cdn.itunes-apple.com.akadns.net,US
 # Apple Music Streaming
 DOMAIN,mvod.itunes.apple.com,{{ api_rule }}
