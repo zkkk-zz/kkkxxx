@@ -15,10 +15,12 @@ DOMAIN-KEYWORD,buy.itunes.apple.com,{{ api_rule }}
 DOMAIN-SUFFIX,hls.itunes.apple.com,{{ default_rule }}
 # Movie Stream
 DOMAIN-SUFFIX,hls-amt.itunes.apple.com,{{ default_rule }}
+
 # iTunes Music Stream
 DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,{{ default_rule }}
 DOMAIN-SUFFIX,cdn-apple.com,{{ default_rule }}
 DOMAIN,cdn.apple-cloudkit.com,{{ default_rule }}
+
 # Developer
 DOMAIN,devimages-cdn.apple.com,{{ default_rule }}
 # Developer
@@ -55,3 +57,11 @@ DOMAIN-SUFFIX,aaplimg.com,{{ api_rule }}
 DOMAIN-SUFFIX,apple.co,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.com,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.apple.com,{{ api_rule }}
+
+# Apple Music Streaming
+DOMAIN,aod.itunes.apple.com,DIRECT
+DOMAIN,api.smoot.apple.cn,DIRECT
+# Apple Music Streaming
+DOMAIN,streamingaudio.itunes.apple.com,DIRECT
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com,DIRECT
