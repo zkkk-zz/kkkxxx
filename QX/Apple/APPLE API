@@ -58,10 +58,5 @@ DOMAIN-SUFFIX,apple.co,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.com,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.apple.com,{{ api_rule }}
 
-# Apple Music Streaming
-DOMAIN,aod.itunes.apple.com,DIRECT
-DOMAIN,api.smoot.apple.cn,DIRECT
-# Apple Music Streaming
-DOMAIN,streamingaudio.itunes.apple.com,DIRECT
 # Apple Music
 DOMAIN-SUFFIX,music.apple.com,DIRECT
