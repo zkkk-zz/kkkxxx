@@ -36,3 +36,9 @@ DOMAIN,play.itunes.apple.com,DIRECT
 
 # locationd
 DOMAIN,gs-loc.apple.com,{{ location_rule }}
+
+# Apple Music Streaming
+DOMAIN,aod.itunes.apple.com,DIRECT
+DOMAIN,api.smoot.apple.cn,DIRECT
+# Apple Music Streaming
+DOMAIN,streamingaudio.itunes.apple.com,DIRECT
