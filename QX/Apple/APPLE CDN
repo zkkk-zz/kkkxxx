@@ -34,8 +34,6 @@ DOMAIN,guzzoni.apple.com,DIRECT
 DOMAIN,bag.itunes.apple.com,DIRECT
 DOMAIN,play.itunes.apple.com,DIRECT
 
-# locationd
-DOMAIN,gs-loc.apple.com,{{ location_rule }}
 
 # Apple Music Streaming
 DOMAIN,aod.itunes.apple.com,DIRECT
