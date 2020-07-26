@@ -58,5 +58,3 @@ DOMAIN-SUFFIX,apple.co,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.com,{{ api_rule }}
 DOMAIN-SUFFIX,itunes.apple.com,{{ api_rule }}
 
-# Apple Music
-DOMAIN-SUFFIX,music.apple.com,DIRECT
