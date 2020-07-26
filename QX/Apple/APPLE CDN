@@ -42,3 +42,4 @@ DOMAIN,aod.itunes.apple.com,DIRECT
 DOMAIN,api.smoot.apple.cn,DIRECT
 # Apple Music Streaming
 DOMAIN,streamingaudio.itunes.apple.com,DIRECT
+DOMAIN,play.itunes.apple.com,US
