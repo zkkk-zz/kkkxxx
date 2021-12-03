@@ -1,0 +1,3 @@
+[Script]
+
+event network-changed script-path=https://raw.githubusercontent.com/zkkk-zz/rules/master/running-mode.js
