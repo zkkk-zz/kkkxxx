@@ -22,33 +22,12 @@
  * BoxJS订阅：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
  * (不推荐！)手动配置项为config, 请看注释
  */
-
-let config = {
-  silence: true, // 是否静默运行，默认false
-  cellular: "RULE", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
-  wifi: "RULE", // wifi下默认的模式
-  all_direct: ["WRT32X", "WRT32X Extreme"], // 指定全局直连的wifi名字
-  all_proxy: ["STU"], // 指定全局代理的wifi名字
-};
-
-// load user prefs from box
-const boxConfig = $persistentStore.read("surge_running_mode");
-if (boxConfig) {
-  config = JSON.parse(boxConfig);
-  config.silence = JSON.parse(config.silence);
-  config.all_direct = JSON.parse(config.all_direct);
-  config.all_proxy = JSON.parse(config.all_proxy);
-}
-
-const isLoon = typeof $loon !== "undefined";
-const isSurge = typeof $httpClient !== "undefined" && !isLoon;
-const MODE_NAMES = {
 let config = {
     silence: true, // 是否禁止通知
     cellular: "RULE",
     wifi: "RULE",
     all_direct: [""], //Wi-Fi的ssid 用英文逗号分开
-    all_proxy: [""]  //Wi-Fi的ssid 用英文逗号分开
+    all_proxy: ["STU"]  //Wi-Fi的ssid 用英文逗号分开
 };
 
 // load user prefs from box
