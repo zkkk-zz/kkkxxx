@@ -10,9 +10,7 @@
 ;增强国外GFW：支持
 
 ;设置规则标志位
-surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
 surge_ruleset=🆎 AdBlock,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
 surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 surge_ruleset=🍎 苹果服务,https://github.com/zkkk-zz/rules/raw/master/QX/Apple/APPLE%20API
 surge_ruleset=🍎 苹果服务,https://github.com/zkkk-zz/rules/raw/master/QX/Apple/GEO
@@ -22,10 +20,14 @@ surge_ruleset=💿 迪士尼,https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash
 surge_ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
 surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
+surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
-surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-surge_ruleset=🎯 全球直连,[]GEOIP,CN
+surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
